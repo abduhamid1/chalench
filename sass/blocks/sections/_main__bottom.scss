@@ -1,0 +1,97 @@
+// banner start
+#banner {
+    .banner__container {
+        background: #F8F8F8;
+        border-radius: 20px;
+
+    }
+
+    margin-top: 244px;
+
+    .banner__content {
+
+        // display: flex;
+        .banner__img1 {
+            display: block;
+            margin: auto;
+        }
+
+        .banner__img2 {
+            display: none;
+        }
+
+        .banner__text {
+            padding-top: 193px;
+            align-items: center;
+            height: 100%;
+            text-align: left;
+
+            h2 {
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 52px;
+                /* or 130% */
+
+
+                color: #000000;
+            }
+
+            .banner__reklama {
+                margin-top: 50px;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@media only screen  and (max-width:768px){
+    #banner {
+        .banner__container {
+            background: #F8F8F8;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        margin-top: 244px;
+        .banner__content {
+            // display: flex;
+            .banner__img1 {
+                display: none;
+            }
+            .banner__img2 {
+                margin: auto;
+                display: block;
+            }
+            .banner__text {
+                padding-bottom: 20px;
+                padding-top: 20px;
+                align-items: center;
+                height: 100%;
+                text-align: left;
+
+                h2 {
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 36px;
+/* or 138% */
+
+
+color: #000000;
+                }
+
+                .banner__reklama {
+                    margin-top: 32px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+// banner end

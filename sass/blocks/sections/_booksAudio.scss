@@ -1,0 +1,251 @@
+#book {
+    .book__wrapper {
+        display: flex;
+        margin-top: 150px;
+        align-items: center;
+
+        .book__phone {
+            position: relative;
+
+            .book__img__star {
+                position: absolute;
+                top: 97%;
+                left: -16%;
+            }
+            .book__img__sm__phone{
+                display: none;
+            }
+        }
+
+        .book__text {
+            position: relative;
+
+            .book__bg__yellov {
+                position: absolute;
+    top: -51%;
+    left: -21%;
+            }
+
+            h2 {
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                /* identical to box height */
+
+                letter-spacing: -0.01em;
+
+                color: #000000;
+            }
+
+            p {
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 34px;
+                /* or 170% */
+
+
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px) {
+    #book {
+        .book__wrapper {
+            display: flex;
+            margin-top: 150px;
+            align-items: center;
+            flex-direction: column;
+
+            .book__phone {
+                position: relative;
+
+                .book__img__star {
+                    position: absolute;
+                    top: -19%;
+                    left: 76%;
+                }
+
+            }
+                   .book__text {
+                       padding: 20px;
+                       position: relative;
+
+
+                       .book__bg__yellov {
+                           position: absolute;
+                           top: -122%;
+                           left: -15%;
+                       }
+
+                       h2 {
+                           font-family: 'SF Pro Display';
+                           font-style: normal;
+                           font-weight: 600;
+                           font-size: 50px;
+                           line-height: 60px;
+                           /* identical to box height */
+
+                           letter-spacing: -0.01em;
+
+                           color: #000000;
+                       }
+
+                       p {
+                           font-family: 'SF Pro Display';
+                           font-style: normal;
+                           font-weight: 500;
+                           font-size: 20px;
+                           line-height: 34px;
+                           /* or 170% */
+
+
+                           color: #000000;
+                       }
+                   }
+        }
+
+ 
+    }
+}
+@media only screen and (max-width:768px) {
+    #book {
+        .book__wrapper {
+            display: flex;
+            margin-top: 150px;
+            align-items: center;
+            flex-direction: column;
+
+            .book__phone {
+                position: relative;
+
+                .book__img__star {
+                    position: absolute;
+                    top: -19%;
+                    left: 76%;
+                }
+                .book__phone__twoo{
+                    display: none;
+                }
+                  .book__img__sm__phone {
+                      display: block;
+                  }
+
+            }
+
+            .book__text {
+                margin-top: 20px;
+                padding: 20px;
+                position: relative;
+
+
+                .book__bg__yellov {
+                    position: absolute;
+                    top: -122%;
+                    left: -15%;
+                }
+
+                h2 {
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #000000;
+                }
+
+                p {
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #000000;
+                }
+            }
+        }
+
+
+    }
+}
+@media only screen and (max-width:576px) {
+    #book {
+        .book__wrapper {
+            display: flex;
+            margin-top: 78px;
+            align-items: center;
+            flex-direction: column;
+
+            .book__phone {
+                position: relative;
+
+                .book__img__star {
+                    position: absolute;
+                    top: -19%;
+                    left: 76%;
+                }
+
+                .book__phone__twoo {
+                    display: none;
+                }
+
+                .book__img__sm__phone {
+                    display: block;
+                }
+
+            }
+
+            .book__text {
+                margin-top: 20px;
+                padding: 20px;
+                position: relative;
+
+
+                .book__bg__yellov {
+                    position: absolute;
+    top: -53%;
+    left: -1%;
+                }
+
+                h2 {
+                    font-family: 'SF Pro Display';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 26px;
+                    line-height: 31px;
+                    /* identical to box height */
+
+                    letter-spacing: -0.01em;
+
+                    color: #000000;
+                }
+
+                p {
+                    font-family: 'SF Pro Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    /* or 167% */
+
+
+                    color: #000000;
+                }
+            }
+        }
+
+
+    }
+}

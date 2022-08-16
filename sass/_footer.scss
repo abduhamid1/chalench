@@ -1,0 +1,237 @@
+#footer {
+    margin-top: 170px;
+
+    .footer__section__logo {
+        height: 132px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+
+        .footer__logo {
+            text-decoration: none;
+            // background: darkblue;
+
+        }
+
+        .footer__logo__description {
+            // background: fuchsia;
+            // position: absolute;
+            // bottom: 0;
+            width: 177px;
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            /* identical to box height, or 157% */
+
+
+            color: #000000;
+
+            opacity: 0.5;
+        }
+    }
+
+
+    .footer__sectino__list {
+        .footer__list {
+            .footer__item {
+                margin-bottom: 16px;
+            }
+
+            .footer__list__link {
+                text-decoration: none;
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                margin-bottom: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+
+
+                color: #000000;
+            }
+        }
+    }
+
+    .footer__tel {
+        margin-left: 95px;
+
+        .footer__tel__link {
+            margin-left: 11px;
+
+            p {
+                top: 1px;
+                margin-bottom: 0;
+                position: relative;
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                /* identical to box height, or 129% */
+
+
+                /* Accent Color/Grey */
+
+                color: rgba(0, 0, 0, 0.5);
+
+                mix-blend-mode: normal;
+            }
+
+            a {
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                /* identical to box height, or 111% */
+
+
+                color: #000000;
+                text-decoration: none;
+            }
+
+        
+        }
+    }    .footer__web {
+                margin-top: 32px;
+                margin-left: 95px;
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                a{
+                    i{
+                        color: #000000;
+                    
+                    }
+                }
+            }
+}
+
+@media only screen and (max-width:768px){
+    #footer {
+        margin-top: 170px;
+.footer__link{
+    display: flex;
+    flex-direction: column;
+}
+        .footer__section__logo {
+            height: 132px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+
+            .footer__logo {
+                text-decoration: none;
+                // background: darkblue;
+
+            }
+
+            .footer__logo__description {
+                // background: fuchsia;
+                // position: absolute;
+                // bottom: 0;
+                width: 177px;
+                font-family: 'SF Pro Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 157% */
+
+
+                color: #000000;
+
+                opacity: 0.5;
+            }
+        }
+
+
+        .footer__sectino__list {
+            .footer__list {
+                .footer__item {
+                    margin-bottom: 16px;
+                }
+
+                .footer__list__link {
+                    text-decoration: none;
+                    font-family: 'SF Pro Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin-bottom: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+
+
+                    color: #000000;
+                }
+            }
+        }
+.footer__col{
+            .footer__tel {
+            order: 1;
+            margin-left: 0px;
+
+            .footer__tel__link {
+                margin-left: 11px;
+
+                p {
+                    top: 1px;
+                    margin-bottom: 0;
+                    position: relative;
+                    font-family: 'SF Pro Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 18px;
+                    /* identical to box height, or 129% */
+
+
+                    /* Accent Color/Grey */
+
+                    color: rgba(0, 0, 0, 0.5);
+
+                    mix-blend-mode: normal;
+                }
+
+                a {
+                    font-family: 'SF Pro Display';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 20px;
+                    /* identical to box height, or 111% */
+
+
+                    color: #000000;
+                    text-decoration: none;
+                }
+
+
+            }
+        }
+
+        .footer__web {
+            margin-top: 32px;
+            margin-left: 0px;
+            display: flex;
+            width: 100px;
+            justify-content: space-between;
+
+            a {
+                i {
+                    color: #000000;
+
+                }
+            }
+        }
+}
+
+    }
+
+}

@@ -1,0 +1,25 @@
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+        background-image: url(../assets/images/Landing.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: -111;
+}
+@media only screen and (max-width:576px) {
+    body{
+         background-image: url(../assets/images/Landing\ -\ mobile.png);
+             overflow-x: hidden;
+            //  background-image: url(../assets/images/Landing.png);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             height: 100%;
+             width: 100%;
+             z-index: -111;
+    }
+    
+}
